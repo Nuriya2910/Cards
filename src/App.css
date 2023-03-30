@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.home .card{
+    width: 300px;
+    min-height: 460px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: khaki ;
+    padding: 24px;
+    justify-content: space-between;
+    /* gap: 20px; */
+}
+
+.home .card img{
+    width: 50%;
+    /* height: 400px; */
+}
